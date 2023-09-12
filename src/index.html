@@ -1,22 +1,50 @@
 <!doctype html> 
  <html lang="en">
-      <head>
+        <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            <title>Crazy Gaming Home</title> 
-            
+            <title>Crazy Gaming Home</title>
 
+            <!--Google Fonts-->
+            <link rel="preconnect" href="https://fonts.googleapis.com"> 
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+            <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+            <!--Linking  external CSS file-->
             <link rel="stylesheet" href="css/general_styles.css">
-    </head>
-    <body>
-        <h1>Welcome to the Gaming World!</h1>
+        </head>
+        <body>
 
-        <p>"Start the Adventure" or "Get on Board!" 
+            <div class="grid-container">
 
-        <p>Feature a visually stunning image or video of people enjoying a roller coaster ride or engaging in gaming activities. This should immediately capture the visitors' attention and convey the thrill of the experience.
+                <div class="brand">Game World</div>
 
-        <p>That sounds fantastic! Creating a gaming website can be a rewarding experience, and it's a great way to share your passion for gaming with others.
+                <div class="page-links">
+                    <a href="index.html"><button class="menu-button">Home</button></a> 
+                    <a href="gallery.html"><button class="menu-button">Gallery</button></a> 
+                    <a href="about.html"><button class="menu-button">About</button></a>
+                </div> <!-- closes the page-links div -->
 
-            <script src="js/site_interactions.js"></script>
+                <div class="main">
+                    <h1>Welcome to the Gaming World!</h1>
+
+                    <figure>
+                        <img class="home_splash" src="images/home_splash.html.jpg" alt="An image of computers and keyboard">
+                        <figcaption>Photo taken by ELLA DON src: unsplash.com</figcaption>
+                    </figure>
+
+                    <p>"Start the Adventure" "Get on board"</p>
+
+                    <p>"Feature a visually stunning image or video of people enjoying a new world</p>
+
+                    <p>[“Enjoy the wonderful day in the gaming ]</p>
+
+                    <button id="discount-code">Give me a discount code!</button>
+                    <p id="your-discount-code">Click the button above to reveal your-discount-code.</p>
+                    
+                </div> <!-- closes the main div -->
+
+            </div> <!-- closes the grid-container div -->
+
+        <script src="js/site_interactions.js"></script>
     </body> 
 </html>
