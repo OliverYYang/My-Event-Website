@@ -193,7 +193,6 @@
   .movie-list-item:hover .movie-list-item-title,
   .movie-list-item:hover .movie-list-item-desc,
   .movie-list-item:hover .movie-list-item-button {
-    opacity: 1;
   }
 
   
