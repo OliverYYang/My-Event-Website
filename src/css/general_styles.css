@@ -22,7 +22,7 @@ h1 {
     grid-column: 1 / span 2; 
     grid-row: 1;
 }
-    .page-links {
+.page-links {
     grid-column: 3 / span 2; 
     grid-row: 1;
     text-align: right;

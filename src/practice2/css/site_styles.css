@@ -1,0 +1,100 @@
+/*
+    Colour scheme created by Vidady (Dark Metal Room Background)
+        and Brandon Lim (Porsche 993 Carerra 2)
+    Retrieved from color.abode.com
+*/
+
+:root {
+    --dark1: #090B0D;
+    --dark2: #1C2226;
+    --midgrey: #425059;
+    --grey: #6c808c;
+    --lightgrey: #A4B5BF;
+    --bloodred: #730220;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+h1 {
+    color: var(--bloodred);
+}
+
+/* Flexbox layout for overall page */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.flex-header-menu, .flex-footer-menu, .flex-side-menu {
+    flex-shrink: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 0px 4px 0px 4px;
+}
+
+.flex-main-content {
+    flex: 1;
+}
+
+/* Mobile-first: These rules apply by default */
+.flex-header-menu {
+    display: none; /* Hide the header */
+}
+
+.flex-side-menu {
+    display: none; /* Hide the side menu */
+}
+
+.flex-footer-menu {
+    display: block; /* Show the footer */
+}
+
+.main-container {
+    width: 100vw; /* Set the width to full screen */
+}
+
+/* Tablet and phones in landscape */
+@media only screen and (min-width: 601px) and (max-width: 1194px) {
+    .flex-container {
+        flex-direction: row;
+    }
+    
+    .flex-header-menu {
+        display: block; /* Show the header */
+    }
+
+    .flex-side-menu {
+        display: none; /* Hide the side menu */
+    }
+
+    .flex-footer-menu {
+        display: none; /* Hide the header */
+    }
+}
+
+ /* Desktop: These rules are only applied if the screen is wider than 768px */
+ @media only screen and (min-width: 1195px) {
+    .flex-header-menu {
+        display: block; /* Show the header */
+    }
+
+    .flex-side-menu {
+        display: none; /* Hide the side menu */
+    }
+
+    .flex-footer-menu {
+        display: none; /* Hide the header */
+    }
+
+    .main-container-menu {
+        width: 75vw;
+    }
+}
