@@ -22,8 +22,16 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
+/* base styles */
+
 h1 {
     color: var(--bloodred);
+}
+
+.nav-link {
+    color: #fff; /* sets the link text to white */
+    text-decoration: none; /* removes the underlining */
+    font-weight: 600; /* uses the semibold from Google fonts */
 }
 
 /* Flexbox layout for overall page */
@@ -51,6 +59,14 @@ h1 {
 
 .flex-side-menu {
     display: none; /* Hide the side menu */
+}
+
+.flex-footer-menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 2vh 5vw;
 }
 
 .flex-footer-menu {
