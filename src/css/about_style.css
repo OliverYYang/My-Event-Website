@@ -6,10 +6,6 @@
     grid-template-rows: repeat(8, auto);
 }
 
-.about-container{
-    display: flex;
-}
-
     #about-item-1 {
         grid-column-start: 1;
         grid-column-end: 4;
