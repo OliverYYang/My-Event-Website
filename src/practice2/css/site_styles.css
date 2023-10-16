@@ -57,16 +57,13 @@ h1 {
     display: none; /* Hide the header */
 }
 
-.flex-side-menu {
-    display: none; /* Hide the side menu */
-}
-
 .flex-footer-menu {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     align-items: center;
     padding: 2vh 5vw;
+    text-align: center;
 }
 
 .flex-footer-menu {
@@ -88,7 +85,23 @@ h1 {
     }
 
     .flex-side-menu {
-        display: none; /* Hide the side menu */
+        display: grid; /* Hide the side menu */
+        grid-auto-rows: min-content;
+        justify-items: center;
+        align-items: start;
+        gap: 3vh;
+        text-align: center;
+    }
+
+    .flex-side-menu img {
+        width: 10vw;
+        height: auto;
+        min-width: 24px;
+        max-width: 40px;
+    }
+
+    .flex-side-menu span {
+        display: block; /* makes the span take up a full line */
     }
 
     .flex-footer-menu {
@@ -99,8 +112,30 @@ h1 {
  /* Desktop: These rules are only applied if the screen is wider than 768px */
  @media only screen and (min-width: 1195px) {
     .flex-header-menu {
-        display: block; /* Show the header */
+        display: grid; /* Show the header */
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        padding: 2vh 5vw;
     }
+
+    .header-name {
+        text-align: left;
+    }
+
+    .header-links {
+        justify-self: end;
+    }
+
+    .header-links a {
+        padding: 0 10px;
+        color: var(--lightgrey);
+        white-space: nowrap;
+    }
+
+    .header-links a:hover {
+        border-bottom: 1px solid var(--lightgrey);
+    }
+
 
     .flex-side-menu {
         display: none; /* Hide the side menu */
