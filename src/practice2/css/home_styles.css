@@ -1,0 +1,30 @@
+.centered-content > img {
+    width: 30vw;
+    height: auto;
+    border-radius: 50%;
+}
+
+.flex-main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-content {
+    text-align: center;
+    color: white; /* new */
+}
+
+/* Tablet and phones in landscape */
+@media only screen and (min-width: 601px) and (max-width: 1194px) {
+    .centered-content > img {
+        width: 15vw;
+    }
+}
+
+/* Desktop: These rules are only applied if the screen is wider than 1194px */
+@media only screen and (min-width: 1195px) {
+    .centered-content > img {
+        width: 10vw;
+    }
+}

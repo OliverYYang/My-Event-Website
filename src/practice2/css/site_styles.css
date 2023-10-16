@@ -93,12 +93,12 @@ h1 {
         text-align: center;
     }
 
-    .flex-side-menu img {
+    /* .flex-side-menu img {
         width: 10vw;
         height: auto;
         min-width: 24px;
         max-width: 40px;
-    }
+    } */
 
     .flex-side-menu span {
         display: block; /* makes the span take up a full line */
