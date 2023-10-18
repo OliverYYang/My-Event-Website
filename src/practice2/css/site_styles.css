@@ -20,6 +20,7 @@ html, body {
 
 body {
     font-family: 'Manrope', sans-serif;
+    background-color: var(--dark1); /* new */
 }
 
 /* base styles */
@@ -74,6 +75,15 @@ h1 {
     width: 100vw; /* Set the width to full screen */
 }
 
+.grid-row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* creates 12 proportional columns */
+    grid-auto-flow: minmax(10vh, auto); /* auto generated rows: sets the min height to be 10% but will expand to content */
+    gap: 16px; /* the gap between columns- best in absoluate values i.e pixels */
+    margin: 2vh 2vw;
+}
+
+
 /* Tablet and phones in landscape */
 @media only screen and (min-width: 601px) and (max-width: 1194px) {
     .flex-container {
@@ -93,12 +103,12 @@ h1 {
         text-align: center;
     }
 
-    /* .flex-side-menu img {
+    .flex-side-menu img {
         width: 10vw;
         height: auto;
         min-width: 24px;
         max-width: 40px;
-    } */
+    }
 
     .flex-side-menu span {
         display: block; /* makes the span take up a full line */
