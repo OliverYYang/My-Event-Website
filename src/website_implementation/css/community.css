@@ -24,11 +24,32 @@
   }
 
   .logo-community-container {
-    background-color: aliceblue;
     flex: 1;
   }
   
   .logo {
     font-size: 30px;
     color: #4dbf00;
+  }
+
+  .menu-community-container {
+    flex: 6;
+  }
+  
+  .menu-community-list {
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu-community-list-item {
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+    font-family:"Roboto", sans-serif;
+    font-weight: bold;
+  }
+
+  .menu-community-list-item:hover{
+
+    color: red;
   }
