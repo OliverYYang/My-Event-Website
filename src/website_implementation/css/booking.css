@@ -42,11 +42,19 @@ body {
     appearance: none;
 }
 
-.seat.Selected {
+.seat.selected {
     background-color: blue;
 
 }
 
-.seat.Occupied {
+.seat.occupied {
     background-color: darkturquoise;
+}
+
+.seat:nth-of-type(2) {
+    margin-right: 20px;
+}
+
+.seat:nth-last-of-type(2) {
+    margin-left: 20px;
 }
