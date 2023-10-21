@@ -18,5 +18,26 @@ body {
     height: 14px;
     width: 16px;
     margin: 4px;
-    
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.row {
+    display: flex;
+}
+
+.movie-container {
+    margin:20px 0;
+}
+
+.movie-container select {
+    background-color: aliceblue;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
 }
