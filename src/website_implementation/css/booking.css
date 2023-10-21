@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    color: blueviolet;
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
+    font-family: 'Lato', 'sans-serif';
+}
+
+.seat {
+    background-color: azure;
+    height: 14px;
+    width: 16px;
+    margin: 4px;
+    
+}
