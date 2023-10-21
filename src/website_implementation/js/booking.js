@@ -48,12 +48,11 @@ const selectedMovieIndex = localStorage.getItem('selectedMovieIndex');
     movieSelect.selectedIndex = selectedMovieIndex;
   }
 
-// Movie select event
-movieSelect.addEventListener('change', (e) => {
-    ticketPrice = +e.target.value;
-    setMovieData(e.target.selectedIndex, e.target.value);
-    updateSelectedCount();
-  });
+// movie select event
+movieSelect.addEventListener('change', e => {
+  ticketprice = +e.target.value;
+  updateSelectedCount();
+});
 
 // Seat click event
 container.addEventListener('click', (e) => {
