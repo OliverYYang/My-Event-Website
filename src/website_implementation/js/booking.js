@@ -41,6 +41,13 @@ function populateUI() {
         });
     }
 }
+
+const selectedMovieIndex = localStorage.getItem('selectedMovieIndex');
+
+  if (selectedMovieIndex !== null) {
+    movieSelect.selectedIndex = selectedMovieIndex;
+  }
+
 // Movie select event
 movieSelect.addEventListener('change', (e) => {
     ticketPrice = +e.target.value;
@@ -53,6 +60,10 @@ container.addEventListener('click', (e) => {
     if(e.target.classList.contains('seat')&& !e.target.classList.contains('occupied')) {
         e.target.classList.toggle('selected');
 
+
+
         updateSelectedCount();
     }
 });
+
+updateSelectedCount();
