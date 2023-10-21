@@ -58,3 +58,12 @@ body {
 .seat:nth-last-of-type(2) {
     margin-left: 20px;
 }
+
+.showcase .seat:not(.occupied):hover {
+    cursor: default;
+    transform: scale(1);
+}
+.seat:not(.occupied):hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
