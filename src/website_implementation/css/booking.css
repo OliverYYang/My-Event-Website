@@ -59,11 +59,29 @@ body {
     margin-left: 20px;
 }
 
+.seat:not(.occupied):hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
 .showcase .seat:not(.occupied):hover {
     cursor: default;
     transform: scale(1);
 }
-.seat:not(.occupied):hover {
-    cursor: pointer;
-    transform: scale(1.5);
+
+.showcase {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: #777;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.showcase li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px;
 }
