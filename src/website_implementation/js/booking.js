@@ -6,6 +6,16 @@ const movieSelect = document.getElementById('movie');
 
 let ticketprice = +movieSelect.value;
 
+// update total and count
+function updateSelectedCount() {
+    const selectedSeats = document.querySelectorAll('.row .seat.selected');
+
+    const selectedSeatsCount = selectedSeats.length;
+
+    count.innerText = selectedSeatsCount;
+    total.innerText = selectedSeatsCount * ticketprice;
+}
+
 
 // Seat click event
 container.addEventListener('click', (e) => {
