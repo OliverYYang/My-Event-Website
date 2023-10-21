@@ -41,3 +41,12 @@ body {
     -webkit-appearance: none;
     appearance: none;
 }
+
+.seat.Selected {
+    background-color: blue;
+
+}
+
+.seat.Occupied {
+    background-color: darkturquoise;
+}
