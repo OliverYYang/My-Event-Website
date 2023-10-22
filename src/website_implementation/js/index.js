@@ -21,26 +21,18 @@ arrows.forEach((arrow, i) => {
   console.log(Math.floor(window.innerWidth / 270));
 });
 
-// search button functions
-document.querySelector('.search-toggle').addEventListener('click', function() {
-  var popup = document.getElementById('searchPopup');
-  if (popup.style.display === "none" || popup.style.display === "") {
-      popup.style.display = "block";
-  } else {
-      popup.style.display = "none";
-  }
-});
+
 
 //TOGGLE
 
-const ball = document.querySelector(".toggle-ball");
-const items = document.querySelectorAll(
-  ".container,.movie-list-title,.navbar-container,.sidebar,.left-menu-icon,.toggle"
-);
+// const ball = document.querySelector(".toggle-ball");
+// const items = document.querySelectorAll(
+//   ".container,.movie-list-title,.navbar-container,.sidebar,.left-menu-icon,.toggle"
+// );
 
-ball.addEventListener("click", () => {
-  items.forEach((item) => {
-    item.classList.toggle("active");
-  });
-  ball.classList.toggle("active");
-});
+// ball.addEventListener("click", () => {
+//   items.forEach((item) => {
+//     item.classList.toggle("active");
+//   });
+//   ball.classList.toggle("active");
+// });

@@ -81,7 +81,7 @@
     object-fit: cover;
   }
   
-  .toggle {
+  /* .toggle {
     width: 40px;
     height: 20px;
     background-color: white;
@@ -105,7 +105,7 @@
     border-radius: 50%;
     cursor: pointer;
     transition: 1s ease all;
-  }
+  } */
   
   .sidebar {
     width: 50px;
