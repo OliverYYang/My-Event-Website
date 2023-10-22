@@ -14,3 +14,25 @@ body {
     flex-direction: column;
     height: 100vh;
 }
+
+.container {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+    width: 780px;
+    max-width: 100%;
+    min-height: 480px;  
+}
+
+.container p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: 20px 0;
+}
+
+.container-span {
+    font-size: 12px;
+}
