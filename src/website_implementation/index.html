@@ -42,9 +42,16 @@
         </div>
     </div>
     <div class="sidebar">
-        <i class="left-menu-icon fas fa-search"></i>
+        <button class="search-toggle">
+            <i class="left-menu-icon fas fa-search"></i>
+        </button>
         <i class="left-menu-icon fas fa-home"></i>
         <i class="left-menu-icon fas fa-users"></i>
+
+        <div class="search-popup" id="searchPopup">
+            <input type="text" class="search-input" placeholder="input keywords">
+            <button class="search-button">Search</button>
+        </div>
     </div>
     <div class="container">
         
@@ -73,7 +80,7 @@
                         </div>
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="media/Resident Evil.jpg" alt="Resident Evil">                           
-                            <p class="movie-list-item-title">Star Wars</p>
+                            <span class="movie-list-item-title">Star Wars</span>
                             <a href="https://www.imdb.com/video/vi2810380569/?playlistId=tt0318627&ref_=tt_pr_ov_vi">
                                 <button class="movie-list-item-button">Watch</button>
                             </a>                           
@@ -110,7 +117,6 @@
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="media/dark winds.jpg" alt="Dark Winds">
                             <span class="movie-list-item-title">Her</span>
-                            
                             <button class="movie-list-item-button">Watch</button>
                         </div>
                     </div>
