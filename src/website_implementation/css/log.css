@@ -115,5 +115,43 @@ body {
     z-index: 5;
     animation: move 0.6s;
 }
+@keyframes move {
+    0%, 49.99% {
+        opacity: 0;
+        z-index: 1;
+    }
+    50%, 100% {
+        opacity: 1;
+        z-index: 5;
+    }
+}
 
+.menu-icons {
+    margin: 20px 0;
+}
 
+.menu-icons a {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+    width: 40px;
+    height: 40px;
+}
+
+.toggle-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.8S ease-in-out;
+    z-index: 1000; 
+}
+
+.container.active .toggle-container {
+    transform: translateX(-100%);
+}
