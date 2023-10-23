@@ -70,6 +70,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: bold;
   }
+  
   .profile-text-container {
     margin: 0 20px;
   }
@@ -80,33 +81,7 @@
     border-radius: 50%;
     object-fit: cover;
   }
-  
-  /* .toggle {
-    width: 40px;
-    height: 20px;
-    background-color: white;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: relative;
-  }
-  
-  .toggle-icon {
-    color: goldenrod;
-  }
-  
-  .toggle-ball {
-    width: 18px;
-    height: 18px;
-    background-color: black;
-    position: absolute;
-    right: 1px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 1s ease all;
-  } */
-  
+
   .sidebar {
     width: 50px;
     height: 100%;
