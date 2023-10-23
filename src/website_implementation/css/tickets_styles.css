@@ -252,7 +252,7 @@
     transition: 1s all ease-in-out;
   }
   
-  .arrow {
+  /* .arrow {
     font-size: 120px;
     position: absolute;
     top: 90px;
@@ -260,7 +260,7 @@
     color: lightgray;
     opacity: 0.5;
     cursor: pointer;
-  }
+  } */
   
   .container.active {
     background-color: white;
