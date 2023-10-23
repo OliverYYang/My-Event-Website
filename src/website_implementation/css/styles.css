@@ -10,8 +10,8 @@
     width: 100%;
     height: 50px;
     background-color: black;
-    position: sticky;
-    top: 0;
+    position: sticky; /* the navbar will "stick" to the top of the viewport, but only after it reaches the top. */
+    top: 0; /* Ensures that the navbar sticks to the very top of the viewport when scrolling. */
   }
   
   .navbar-container {
@@ -39,7 +39,7 @@
   
   .menu-list {
     display: flex;
-    list-style: none;
+    list-style: none; /* removes bullet points from list items */
   }
   
   .menu-list-item {
@@ -69,6 +69,7 @@
     color: aliceblue;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
+    text-decoration: none;
   }
   
   .profile-text-container {
