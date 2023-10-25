@@ -67,8 +67,11 @@ h1 {
     text-align: center;
 }
 
-.flex-footer-menu {
-    display: block; /* Show the footer */
+.flex-footer-menu img {
+    width: 15vw;
+    height: auto;
+    min-width: 24px;
+    max-width: 50px;
 }
 
 .main-container {
@@ -91,7 +94,7 @@ h1 {
     }
     
     .flex-header-menu {
-        display: block; /* Show the header */
+        display: none; /* Show the header */
     }
 
     .flex-side-menu {

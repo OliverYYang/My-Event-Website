@@ -203,13 +203,13 @@
   
   .movie-list-item:hover .movie-list-item-img {
     transform: scale(1.2);
-    margin: 0 30px;
+    margin: 0 10px;
     opacity: 0.5;
   }
   
   .movie-list-item:hover .movie-list-item-img-added {
     transform: scale(1.2);
-    margin: 0 30px;
+    margin: 0 10px;
     opacity: 0.5;
   }
   
@@ -217,7 +217,6 @@
     transition: 1s all ease-in-out;
     width: 270px;
     height: 300px;
-    object-fit: cover;
     border-radius: 20px;
   }
 
@@ -287,8 +286,8 @@
       color: black;
   }
   
-  /* Tablet and phones in landscape */
-  @media only screen and (min-width: 601px) and (max-width: 1194px) {
+/* Tablet and phones in landscape */
+@media only screen and (min-width: 601px) and (max-width: 1194px) {
     .navbar-container {
       padding: 0 20px;
   }
@@ -327,52 +326,43 @@
     margin-left: 30px;
   }
 
-.featured-content {
-    height: 60vh; 
-    padding: 30px;
+  .featured-content {
+    height: 50vh; 
+    padding: 50px;
   }
 
-.featured-desc {
+  .featured-desc {
     width: 70%; 
     font-size: 0.9rem; 
     margin-top: 220px;
   }
 
-.featured-button {
+  .featured-button {
     padding: 8px 15px;
     font-size: 0.9rem; 
   }
-  .movie-list {
-    flex-direction: column;
-    height: auto;
+  .movie-list-item-img {
+    width: 200px;
+    height: 220px;
   }
 
-.movie-list-item {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-
-.movie-list-item-img,
-.movie-list-item-img-added {
-    width: 180px;
-    height: 200px;
-  }
-
-.movie-list-item-title {
-    font-size: 14px;
-    top: 5%;
+  .movie-list-item-title {
+    font-size: 16px;
     left: 30px;
   }
 
-.movie-list-item-button {
-    font-size: 0.8rem;
+  .movie-list-item-button {
+    left: 30px;
     padding: 8px;
-    left: 30px;
-    bottom: 10px;
+    font-size: 14px;
+  }
+
+  .movie-list-item {
+    margin-right: 20px;
   }
 }
 
-  @media only screen and (min-width: 1195px) {
+@media only screen and (min-width: 1195px) {
     .navbar-container {
       padding: 0 70px;
   }
@@ -411,39 +401,38 @@
     margin-left: 70px;
   }
 
-.featured-content {
+  .featured-content {
     height: 55vh; 
     padding: 60px;
   }
 
-.featured-desc {
+  .featured-desc {
     width: 600px;
     font-size: 1.1rem; 
     margin-top: 260px;
   }
 
-.featured-button {
+  .featured-button {
     padding: 12px 25px;
     font-size: 1.1rem; 
   }
+  .movie-list-item-img {
+    width: 320px;
+    height: 350px;
+  }
+
+  .movie-list-item-title {
+    font-size: 24px;
+    left: 60px;
+  }
+
+  .movie-list-item-button {
+    left: 60px;
+    padding: 12px;
+  }
+
   .movie-list-item {
-    margin-right: 15px;
-  }
-
-.movie-list-item-img,
-.movie-list-item-img-added {
-    width: 220px;
-    height: 250px;
-  }
-
-.movie-list-item-title {
-    font-size: 18px;
-    left: 40px;
-  }
-
-.movie-list-item-button {
-    font-size: 0.9rem;
-    left: 40px;
+    margin-right: 40px;
   }
 }
 
