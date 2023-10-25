@@ -6,6 +6,12 @@
     font-family: "Roboto", sans-serif;
   }
   
+  header {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+  }
+
   .navbar {
     width: 100%;
     height: 50px;
@@ -24,11 +30,11 @@
   }
   
 
-  .logo-container {
+  .brand-container {
     flex: 1;
   }
   
-  .logo {
+  .brand {
     font-size: 30px;
     color: #4dbf00;
   }
@@ -54,10 +60,7 @@
 
     color: red;
   }
-  
-  .menu-list-item.active {
-    font-weight: bold;
-  }
+
   .profile-container {
     flex: 2;
     display: flex;
@@ -93,7 +96,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 60px;
-    z-index: 1001;
+    z-index: 1001; /* ensuring it remains on top of most other elements */
   }
   
   .left-menu-icon {
@@ -145,7 +148,6 @@
   
   .container {
     background-color: #151515;
-    min-height: calc(100vh - 50px);
     color: white;
   }
   
@@ -211,13 +213,6 @@
     opacity: 0.5;
   }
   
-
-  .movie-list-item:hover .movie-list-item-title,
-  .movie-list-item:hover .movie-list-item-desc,
-  .movie-list-item:hover .movie-list-item-button {
-  }
-
-  
   .movie-list-item-img {
     transition: 1s all ease-in-out;
     width: 270px;
@@ -238,11 +233,13 @@
     background-color: #333;
     padding: 0 10px;
     font-size: 20px;
+    /* outline: none;
+    border: none; */
     font-weight: bold;
     position: absolute;
     top: 10%;
     left: 50px;
-    opacity: 0.8;
+    opacity: 0.7;
   }
   
   .movie-list-item-button {
@@ -292,17 +289,17 @@
       color: black;
   }
   
-  .toggle.active{
-      background-color: black;
+  /* Tablet and phones in landscape */
+  @media only screen and (min-width: 601px) and (max-width: 1194px) {
+    .header {
+      display: block;
+    }
   }
-  
-  .toggle-ball.active{
-      background-color: white;
-      transform: translateX(-20px);
-  }
-  
-  @media only screen and (max-width: 940px){
-      .menu-container{
-          display: none;
-      }
-  }
+
+
+
+
+
+
+
+

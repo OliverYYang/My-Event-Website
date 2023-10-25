@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/community.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
         rel="stylesheet">
@@ -11,39 +11,54 @@
     <title>Community</title>
 </head>
 <body>
-    <div class="header-community">
-        <div class="header-community-container">
-            <div class="logo-community-container">
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
                 <h1 class="logo">GLEX</h1>
             </div>
-            <div class="menu-community-container">
-                <ul class="menu-community-list">
-                    <a class="menu-community-list-item" href="index.html">Home</a> 
-                    <a class="menu-community-list-item" href="community.html">Community</a>
-                    <a class="menu-community-list-item" href="tickets.html">Tickets</a>
-                    <a class="menu-community-list-item" href="News.html">News</a>
-                    <a class="menu-community-list-item" href="about.html">About</a>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <a class="menu-list-item" href="index.html">Home</a> 
+                    <a class="menu-list-item" href="community.html">Community</a>
+                    <a class="menu-list-item" href="tickets.html">Tickets</a>
+                    <a class="menu-list-item" href="News.html">News</a>
+                    <a class="menu-list-item" href="about.html">About</a>
                 </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="img/profile.jpg" alt="">
+                <div class="profile-text-container">
+                    <a class="profile-text" href="log.html">Log in</a>
+                </div>
             </div>
         </div>
     </div>
-
     <div class="sidebar">
-        <i class="left-menu-icon fas fa-search"></i>
+        <button class="search-toggle">
+            <i class="left-menu-icon fas fa-search"></i>
+        </button>
         <i class="left-menu-icon fas fa-home"></i>
         <i class="left-menu-icon fas fa-users"></i>
+        <div class="search-popup" id="searchPopup">
+            <!--indicates a light gray hint text "input keywords" that will be displayed 
+                inside the input box when it's empty.-->
+            <input type="text" class="search-input" placeholder="input keywords">
+            <button class="search-button">Search</button>
+        </div>
     </div>
-
-    <div class="container">
-        
+    <div class="container">        
         <div class="content-container">
+            <!--Through inline styling, a linear gradient background is set that transitions from transparent to deep black, 
+            with an image URL placed behind it.-->
             <div class="featured-content"
-                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url(media/the-creator-movie-poster-gareth-edwards-john-david-washington.webp);">
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url(media/animal\ kingdom.jpeg);">
                 <p class="featured-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illo dolor
                     deserunt nam assumenda ipsa eligendi dolore, ipsum id fugiat quo enim impedit, laboriosam omnis
                     minima voluptatibus incidunt. Accusamus, provident.</p>
                 <button class="featured-button">WATCH</button>
-            </div>
-        </div>
+
+
+
+    
 </body>
 </html>

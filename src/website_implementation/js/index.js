@@ -8,6 +8,8 @@ arrows.forEach((arrow, i) => {
   arrow.addEventListener("click", () => {
     const ratio = Math.floor(window.innerWidth / 270);
     clickCounter++;
+    // the condition checks: how many items remain to be scrolled and shown. 
+    //If this value is greater than or equal to 0, it indicates there are items left to be scrolled into view.
     if (itemNumber - (4 + clickCounter) + (4 - ratio) >= 0) {
       movieLists[i].style.transform = `translateX(${
         movieLists[i].computedStyleMap().get("transform")[0].x.value - 300
@@ -38,18 +40,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-
-
-//TOGGLE
-
-// const ball = document.querySelector(".toggle-ball");
-// const items = document.querySelectorAll(
-//   ".container,.movie-list-title,.navbar-container,.sidebar,.left-menu-icon,.toggle"
-// );
-
-// ball.addEventListener("click", () => {
-//   items.forEach((item) => {
-//     item.classList.toggle("active");
-//   });
-//   ball.classList.toggle("active");
-// });
