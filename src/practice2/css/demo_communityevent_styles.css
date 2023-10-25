@@ -1,0 +1,52 @@
+label {
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+    width: 85%;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-check {
+    margin-bottom: 0.25rem;
+}
+
+.form-check-label {
+    display: inline !important;
+    margin-left: 0.25rem;
+}
+
+#photo-file-input-label {
+    width: 50%;
+    padding: 1vw;
+    background-color: var(--dark2);
+    color: #fff;
+    cursor: pointer;
+    border: var(--grey);
+    border-style: solid;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+#photo-file-input-label:hover {
+    background-color: var(--lightgrey);
+    color: var(--bloodred);
+}
+
+#photo-file-input {
+    display: none;
+}

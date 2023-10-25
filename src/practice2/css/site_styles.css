@@ -96,6 +96,28 @@ h1 {
     color: white;
 }
 
+/* Button styles */
+/* base button styles */
+
+.btn {
+    padding: 1vh 1vw;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: var(--bloodred);
+    color: #fff; 
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    color: var(--bloodred);
+}
+
 .page-header {
     color: var(--lightgrey);
     font-weight: 600;
