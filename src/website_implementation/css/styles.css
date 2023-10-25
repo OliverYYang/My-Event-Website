@@ -325,6 +325,25 @@
   .search-input {
       width: 180px;
   }
+  .content-container {
+    margin-left: 30px;
+  }
+
+.featured-content {
+    height: 60vh; 
+    padding: 30px;
+  }
+
+.featured-desc {
+    width: 70%; 
+    font-size: 0.9rem; 
+    margin-top: 220px;
+  }
+
+.featured-button {
+    padding: 8px 15px;
+    font-size: 0.9rem; 
+  }
 }
 
   @media only screen and (min-width: 1195px) {
@@ -361,6 +380,25 @@
 
   .search-input {
       width: 220px;
+  }
+  .content-container {
+    margin-left: 70px;
+  }
+
+.featured-content {
+    height: 55vh; 
+    padding: 60px;
+  }
+
+.featured-desc {
+    width: 600px;
+    font-size: 1.1rem; 
+    margin-top: 260px;
+  }
+
+.featured-button {
+    padding: 12px 25px;
+    font-size: 1.1rem; 
   }
 }
 
