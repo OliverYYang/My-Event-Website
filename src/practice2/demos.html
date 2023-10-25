@@ -5,6 +5,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <title>Oliver Designs</title>
             <link rel="stylesheet" href="css/site_styles.css">
+            <link rel="stylesheet" href="css/demo_communityevent_styles.css">
             <!--Google Fonts-->
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,7 +55,57 @@
                         </div>
                         <div class="col-12 col-md-12 col-lg-8">
                             <div class="grid-row">
-                                <div class="col-12 col-md-12 col-lg-12">
+                                <div class="col-12 col-md-12 col-lg-12"> <!--card making-->
+                                    <div class="card" role="group" aria-labelledby="card-form-title" aria-describedby="card-form-desc">
+                                        <h2 class="card-header m-2" id="card-form-title">Submit an event form</h2>
+                                        <p class="card-body-text p-2" id="card-form-desc">This is the form used to submit an event,all</p>
+                                        <form id="eventForm" class="m-2" enctype="multipart/form-data">
+                                            <div class="form-group">
+                                                <label for="name">Event Name:</label>
+                                                <input type="text" id="name" name="name" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="location">Location:</label>
+                                                <input type="text" id="location" name="location" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="organiser">Organiser:</label>
+                                                <input type="text" id="organiser" name="organiser" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label >Event Type:</label>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="event_type" id="workshop" value="Workshop" required>
+                                                    <label class="form-check-label" for="workshop">Workshop</label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="event_type" id="seminar" value="Seminar" required>
+                                                    <label class="form-check-label" for="seminar">Seminar</label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="event_type" id="groupActivity" value="Group Activity" required>
+                                                    <label class="form-check-label" for="groupActivity">Group Activity</label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="event_type" id="webinar" value="webinar" required>
+                                                    <label class="form-check-label" for="webinar">Webinar</label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="description">Description</label>
+                                                    <textarea name="description" id="description" rows="4"></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="data-time">Date and Time</label>
+                                                    <input type="text" name="date_time" id="data-time" placeholder="e.g 2023-10-26" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="photo" id="photo-file-input-label" class="p-1">Add a photo(optional)</label>
+                                                    <input type="file" name="photo" id="photo-file-input" accept = "image/*" capture = "camera"><span id="selected-file-name"></span>
+                                                </div>>
+                                                <input class="btn btn-primary" type="submit" value="Submit Event">
+                                            </div>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                             <div class="grid-row" id="events-container">
