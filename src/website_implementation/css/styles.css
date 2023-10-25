@@ -307,6 +307,24 @@
       width: 28px;
       height: 28px;
   }
+  .sidebar {
+    width: 40px;
+    padding-top: 50px;
+  }
+
+  .left-menu-icon {
+      font-size: 18px;
+      margin-bottom: 30px;
+  }
+
+  .search-popup {
+      top: 50px;
+      left: 50px;
+  }
+
+  .search-input {
+      width: 180px;
+  }
 }
 
   @media only screen and (min-width: 1195px) {
@@ -325,6 +343,24 @@
   .profile-picture {
       width: 36px;
       height: 36px;
+  }
+  .sidebar {
+    width: 60px;
+    padding-top: 70px;
+  }
+
+  .left-menu-icon {
+      font-size: 22px;
+      margin-bottom: 45px;
+  }
+
+  .search-popup {
+      top: 70px;
+      left: 70px;
+  }
+
+  .search-input {
+      width: 220px;
   }
 }
 
