@@ -71,6 +71,31 @@ h1 {
     margin: 2vh 0vw; /* 2% padding top and bottom */
 }
 
+.card {
+    border: 1px solid var(--dark2);
+    border-radius: 10px;
+    box-shadow: 5px 10px 50px var(--midgrey);
+}
+
+.card-header {
+    color: white;
+    font-weight: 600;
+    font-size: large;
+}
+
+.card-banner-image {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-body-text {
+    color: white;
+}
+
 .page-header {
     color: var(--lightgrey);
     font-weight: 600;
