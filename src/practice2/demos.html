@@ -62,7 +62,7 @@
                                     <div class="card" role="group" aria-labelledby="card-form-title" aria-describedby="card-form-desc">
                                         <h2 class="card-header m-2" id="card-form-title">Submit an event form</h2>
                                         <p class="card-body-text p-2" id="card-form-desc">This is the form used to submit an event,all</p>
-                                        <form id="eventForm" class="m-2" enctype="multipart/form-data">
+                                        <form action="http://your_server_address/api/community_events/" method="post" enctype="multipart/form-data">
                                             <div class="form-group">
                                                 <label for="name">Event Name:</label>
                                                 <input type="text" id="name" name="name" required>

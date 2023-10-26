@@ -1,3 +1,4 @@
+const my_website_code = "oliver123";
 // Function to update ARIA attributes
 const updateAriattributes = () => {
     const width = window.innerWidth;
