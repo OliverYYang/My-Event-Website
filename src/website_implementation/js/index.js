@@ -24,18 +24,14 @@ arrows.forEach((arrow, i) => {
 });
 
 
-document.addEventListener('DOMContentLoaded', function() {
-  var searchToggle = document.querySelector('.search-toggle');
-  var popup = document.getElementById('searchPopup');
 
-  searchToggle.addEventListener('click', function() {
-      if (getComputedStyle(popup).display === "none") {
-          popup.style.display = "block";
-      } else {
-          popup.style.display = "none";
-      }
-  });
-});
+
+
+
+
+
+
+
 
 
 

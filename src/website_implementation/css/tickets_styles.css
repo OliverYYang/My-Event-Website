@@ -106,16 +106,15 @@
   .featured-content {
     height: 50vh;
     padding: 50px;
+    position: relative;
   }
   
-  .featured-title {
-    width: 200px;
-  }
   
   .featured-desc {
     width: 500px;
+    height: 100px;
     color: lightgray;
-    margin: 30px 0;
+    margin-top: 270px;
   }
   
   .featured-button {
@@ -126,6 +125,7 @@
     border: none;
     outline: none;
     font-weight: bold;
+    cursor: pointer;
   }
   
   .movie-list-container {

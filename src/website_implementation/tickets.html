@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <title>Tickets</title>
     <script src="js/jquery.js"></script>
-    <script src="js/common.js"></script>
 </head>
 
 <body>
@@ -41,9 +40,15 @@
     </div>
 
     <div class="sidebar">
-        <i class="left-menu-icon fas fa-search"></i>
+        <button class="search-toggle">
+            <i class="left-menu-icon fas fa-search"></i>
+        </button>
         <i class="left-menu-icon fas fa-home"></i>
         <i class="left-menu-icon fas fa-users"></i>
+        <div class="search-popup" id="searchPopup">
+            <input type="text" class="search-input" placeholder="input keywords">
+            <button class="search-button">Search</button>
+        </div>
     </div>
     <div class="container">
 
@@ -139,9 +144,9 @@
                     <i class="fas fa-chevron-right arrow"></i>
                 </div>
             </div>
+            <br> <br>
             <div class="featured-content"
                 style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('media/maxresdefault.jpg');">
-                <img class="featured-title" src="img/f-t-2.png" alt="">
                 <p class="featured-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illo dolor
                     deserunt nam assumenda ipsa eligendi dolore, ipsum id fugiat quo enim impedit, laboriosam omnis
                     minima voluptatibus incidunt. Accusamus, provident.</p>
@@ -156,22 +161,22 @@
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="media/philosophy-hero.jpg" alt="">
                             <span class="movie-list-item-title">Children</span>
-                            <button class="movie-list-item-button">Buy Tickets</button>
+                            <a href="booking.html"><button class="movie-list-item-button">Buy Tickets</button></a>
                         </div>
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="media/Happy students2.jpg" alt="">
                             <span class="movie-list-item-title">Students</span>
-                            <button class="movie-list-item-button">Buy Tickets</button>
+                            <a href="booking.html"><button class="movie-list-item-button">Buy Tickets</button></a>
                         </div>
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="media/istockphoto-475374733-612x612.jpg" alt="">
                             <span class="movie-list-item-title">Old</span>
-                            <button class="movie-list-item-button">Buy Tickets</button>
+                            <a href="booking.html"><button class="movie-list-item-button">Buy Tickets</button></a>
                         </div>
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="media/disability-kindness-01-vertical.webp" alt="">
                             <span class="movie-list-item-title">Disabilities</span>
-                            <button class="movie-list-item-button">Buy Tickets</button>
+                            <a href="booking.html"><button class="movie-list-item-button">Buy Tickets</button></a>
                         </div>
                     </div>
                 </div>

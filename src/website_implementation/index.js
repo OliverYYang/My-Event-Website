@@ -21,16 +21,17 @@ arrows.forEach((arrow, i) => {
   console.log(Math.floor(window.innerWidth / 270));
 });
 
-//TOGGLE
 
-const ball = document.querySelector(".toggle-ball");
-const items = document.querySelectorAll(
-  ".container,.movie-list-title,.navbar-container,.sidebar,.left-menu-icon,.toggle"
-);
-
-ball.addEventListener("click", () => {
-  items.forEach((item) => {
-    item.classList.toggle("active");
+$(document).ready(function () {
+  $('.search-toggle').hover(function () {
+      $('#searchPopup').css('opacity', 1);
+  }, function () {
+      // out
   });
-  ball.classList.toggle("active");
+
+  $('#searchPopup').hover(function () {
+      
+  }, function () {
+      $('#searchPopup').css('opacity', 0);
+  });
 });
