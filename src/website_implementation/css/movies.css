@@ -6,25 +6,37 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.header {
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    position: absolute;
-    top: 0%;
+.movie-all{
+    margin-bottom: 20px;
 }
-
-.header-container {
-    width: 100%;
-    height: 50px;
-    display: flex;
-    align-items: center;
+.news-movie-list {
     
 }
+.news-movie-list ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.news-movie-list li {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: 100%;
+    text-decoration: 1px solid white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.news-movie-list li img{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
 
-.section {
-    width: 100%;
-    height: 100px;
-    background-color: aquamarine;
-    position: absolute;
+.news-movie-list li .movie-dec{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.news-movie-list li .movie-dec p:first-child{
+    font-size: 22px;
+    font-weight: bold;
 }
