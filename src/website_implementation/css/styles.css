@@ -177,6 +177,7 @@
     border: none;
     outline: none;
     font-weight: bold;
+    cursor: pointer;
   }
   
   .movie-list-container {

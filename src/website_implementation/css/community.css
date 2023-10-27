@@ -1,0 +1,35 @@
+.community{
+    display: flex;
+    flex-direction: column;
+}
+
+.community-bg{
+    width: 100%;
+}
+
+.community-bg img{
+    max-width: 100%;
+}
+
+.community-title{
+    padding: 30px;
+}
+.community-list{
+    padding: 20px;
+}
+.community-list ul{
+    display: flex;
+    flex-direction: column;
+}
+.community-list ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.community-list ul li img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
