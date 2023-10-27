@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>About</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/common.js"></script>
+    
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">GLEX</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <a class="menu-list-item" href="index.html">Home</a>
+                    <a class="menu-list-item" href="community.html">Community</a>
+                    <a class="menu-list-item" href="tickets.html">Tickets</a>
+                    <a class="menu-list-item" href="News.html">News</a>
+                    <a class="menu-list-item" href="about.html">About</a>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="media/Portuguese.jpg" alt="">
+                <div class="profile-text-container">
+                    <a class="profile-text" href="log.html">Log in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <button class="search-toggle">
+            <i class="left-menu-icon fas fa-search"></i>
+        </button>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <div class="search-popup" id="searchPopup">
+            <input type="text" class="search-input" placeholder="input keywords">
+            <button class="search-button">Search</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="about">
+                <ul>
+                    <li><span>Event name</span><input type="text" id="event_name"></li>
+                    <li><span>Location</span><input type="text" id="location"></li>
+                    <li><span>Organiser</span><input type="text" id="organiser"></li>
+                    <li><span>Event type</span><input type="text" id="event_type"></li>
+                    <li><span>Description</span><input type="text" id="description"></li>
+                    <li><span>Website code</span><input type="text" id="website_code"></li>
+                    <li><button id="formSmt">POST</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="about_api.js"></script>
+</body>
+
+</html>
