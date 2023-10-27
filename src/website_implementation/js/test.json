@@ -1,0 +1,329 @@
+[
+    {
+        "id": 9,
+        "title": "Smftre",
+        "image_url": "https://deco7140sem22023.s3.ap-southeast-2.amazonaws.com/movie_info/smftre_world.png",
+        "category": "Drama",
+        "description": "Set in the 1950s, this movie follows Smftre, a determined woman who moves to a bustling city with dreams of launching her own business. In a male-dominated world, she faces insurmountable hurdles, from patronizing banks unwilling to loan her money to society's skepticism about her abilities. But Emily is unyielding, using her wit and resilience to navigate a labyrinth of discrimination and prejudice. As she slowly wins over allies and builds her enterprise, Emily not only challenges societal norms but also redefines what it means to be a businesswoman in her era.",
+        "cinema_details": [
+            {
+                "cinema_name": "Sunnybank Cinemas",
+                "session_time": "16:00:00",
+                "ticket_price": "11.00"
+            },
+            {
+                "cinema_name": "Capalaba Cinemas",
+                "session_time": "19:30:00",
+                "ticket_price": "11.00"
+            },
+            {
+                "cinema_name": "Rosetta Milton",
+                "session_time": "20:00:00",
+                "ticket_price": "18.00"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Saving Sydney",
+        "image_url": "https://deco7140sem22023.s3.ap-southeast-2.amazonaws.com/movie_info/sydney_kids.png",
+        "category": "Childrens",
+        "description": "In 'Saving Sydney', the lovable animals of Taronga Zoo face their greatest challenge yet. When a greedy developer threatens to turn their beloved sanctuary into a car park, a group of unlikely animal friends band together to thwart the plan. Led by Tilly the Kangaroo and Ollie the Cockatoo, the motley crew embarks on a daring mission to retrieve evidence that will save their home. Through teamwork, courage, and a splash of ingenuity, they prove that even the smallest paws can make a big difference. A heartwarming tale of unity, activism, and the true meaning of home.",
+        "cinema_details": [
+            {
+                "cinema_name": "Balmoral Cineplex",
+                "session_time": "14:00:00",
+                "ticket_price": "8.00"
+            },
+            {
+                "cinema_name": "Balmoral Cineplex",
+                "session_time": "11:00:00",
+                "ticket_price": "8.00"
+            },
+            {
+                "cinema_name": "Sunnybank Cinemas",
+                "session_time": "12:00:00",
+                "ticket_price": "9.00"
+            },
+            {
+                "cinema_name": "Capalaba Cinemas",
+                "session_time": "14:00:00",
+                "ticket_price": "7.50"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Freedom Quest",
+        "image_url": "https://deco7140sem22023.s3.ap-southeast-2.amazonaws.com/movie_info/freedomquest.fantasy.png",
+        "category": "Fantasy",
+        "description": "In the mystical realm of Eldoria, an ancient wizard named Elrad holds the key to the world's salvation. When dark forces threaten to shroud the land in eternal darkness, a band of unlikely heroes embark on the 'Freedom Quest'. Navigating treacherous terrains and battling nefarious creatures, they must reach Elrad and unlock the secrets of his arcane powers to restore light and freedom to Eldoria. A tale of courage, friendship, and destiny awaits.",
+        "cinema_details": [
+            {
+                "cinema_name": "Capalaba Cinemas",
+                "session_time": "17:00:00",
+                "ticket_price": "8.00"
+            },
+            {
+                "cinema_name": "Coorparoo Palace",
+                "session_time": "18:00:00",
+                "ticket_price": "9.00"
+            },
+            {
+                "cinema_name": "Southbank Cinemas",
+                "session_time": "18:30:00",
+                "ticket_price": "8.50"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Frontier",
+        "image_url": "https://deco7140sem22023.s3.ap-southeast-2.amazonaws.com/movie_info/frontier_action.png",
+        "category": "Action",
+        "description": "In the neon-lit streets of New West City, a cyberpunk frontier town where tech meets the Wild West, a mysterious Asian martial artist named Kira emerges. Amidst the backdrop of holographic saloons and robotic outlaws, she's on a mission to bring justice to those who've wronged her. As past secrets unravel, Kira's unparalleled martial arts prowess challenges the city's most formidable foes. 'Frontier' blends high-octane action with the rugged spirit of the West, where tradition clashes with the future, and a lone heroine stands tall.",
+        "cinema_details": [
+            {
+                "cinema_name": "Brisbane City",
+                "session_time": "18:30:00",
+                "ticket_price": "14.00"
+            },
+            {
+                "cinema_name": "Sunnybank Cinemas",
+                "session_time": "19:00:00",
+                "ticket_price": "11.00"
+            },
+            {
+                "cinema_name": "North Lakes Cinema",
+                "session_time": "19:30:00",
+                "ticket_price": "10.00"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Autumn Garden",
+        "image_url": "https://deco7140sem22023.s3.ap-southeast-2.amazonaws.com/movie_info/autumngarden.romance.png",
+        "category": "Romance",
+        "description": "In the rolling hills of the English countryside, two aging men, Albert and Charles, live in neighboring estates, separated not just by a stone wall but years of rivalry and resentment. As seasons change and memories of old feuds begin to fade, unexpected interactions lead to a rediscovery of their pasts and themselves. Through shared stories and moments of vulnerability, the two find that beneath their bitterness lies a profound connection. 'Elderly Echoes' is a tender tale of late-blooming love, reminding us that it's never too late to find your heart's true desire.",
+        "cinema_details": [
+            {
+                "cinema_name": "St Lucia Palace",
+                "session_time": "20:00:00",
+                "ticket_price": "12.00"
+            },
+            {
+                "cinema_name": "New Farm Palace",
+                "session_time": "20:00:00",
+                "ticket_price": "12.00"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Summer Escape",
+        "image_url": "https://deco7140sem22023.s3.ap-southeast-2.amazonaws.com/movie_info/summerescape_romance.png",
+        "category": "Romance",
+        "description": "Summer Escape' unfolds on the sun-kissed beaches of Bali where two weary souls, Mia and Leo, seek refuge from their draining city lives. Their paths cross on the sandy shores, and initial aggravations lead to witty banter. However, a twist of fate sees them lost amidst Bali's hidden treasures, pushing them closer in their shared adventure. As tropical nights turn into days, their journey becomes more than just an escape from the city. Amidst vibrant sunsets and serene temples, they discover a new life and a blossoming love, making Bali their forever home.",
+        "cinema_details": [
+            {
+                "cinema_name": "North Lakes Cinemas",
+                "session_time": "12:00:00",
+                "ticket_price": "8.00"
+            },
+            {
+                "cinema_name": "St Lucia Palace",
+                "session_time": "15:00:00",
+                "ticket_price": "9.00"
+            },
+            {
+                "cinema_name": "Toowong Cinemas",
+                "session_time": "19:00:00",
+                "ticket_price": "12.00"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Starmider",
+        "image_url": "https://deco7140sem22023.s3.ap-southeast-2.amazonaws.com/movie_info/starmider_scifi.png",
+        "category": "Sci-Fi",
+        "description": "In a galaxy teetering on the brink of extinction, Starmider, an intrepid explorer, scours the universe for an elusive energy source that can rejuvenate their dying planet. On a distant moon, they stumble upon ancient ruins that whisper tales of a power beyond comprehension. But this is not just an energy source—it's a sentient ancient force, both guardian and gatekeeper. As Starmider unravels its mysteries, they're faced with a choice: harness the energy and potentially doom another civilization, or seek a new path to salvation. 'Starmider' explores the boundaries of sacrifice, survival, and sentient symbiosis.",
+        "cinema_details": [
+            {
+                "cinema_name": "Brisbane City",
+                "session_time": "17:00:00",
+                "ticket_price": "15.00"
+            },
+            {
+                "cinema_name": "Chermside Cinemas",
+                "session_time": "19:00:00",
+                "ticket_price": "14.00"
+            },
+            {
+                "cinema_name": "Redbank Cinemas",
+                "session_time": "20:30:00",
+                "ticket_price": "12.00"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Krytponian Kid",
+        "image_url": "https://deco7140sem22023.s3.ap-southeast-2.amazonaws.com/movie_info/kyrtponian_kid.png",
+        "category": "Childrens",
+        "description": "In the animated adventure 'Kryptonian Kid', young Max stumbles upon a mysterious meteorite that grants him otherworldly superpowers. As he learns to soar the skies and bend steel, a dark shadow named Lord Malice emerges, seeking the meteorite's power for his own wicked desires. Initially overconfident, Max soon realizes that the true strength isn't just in his newfound abilities, but in the bond he shares with his friends. Together, they unite to outsmart Lord Malice. Through epic battles and heartwarming moments, 'Kryptonian Kid' teaches us that friendship is the mightiest superpower of all.",
+        "cinema_details": [
+            {
+                "cinema_name": "Redbank Cinemas",
+                "session_time": "14:00:00",
+                "ticket_price": "8.00"
+            },
+            {
+                "cinema_name": "Brisbane City",
+                "session_time": "11:00:00",
+                "ticket_price": "8.00"
+            },
+            {
+                "cinema_name": "Southbank Cinemas",
+                "session_time": "17:00:00",
+                "ticket_price": "7.00"
+            },
+            {
+                "cinema_name": "Capalaba Cinemas",
+                "session_time": "18:00:00",
+                "ticket_price": "7.00"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Alien Invasion",
+        "image_url": "https://deco7140sem22023.s3.ap-southeast-2.amazonaws.com/movie_info/alieninvasion_scifi.png",
+        "category": "Sci-Fi",
+        "description": "When Earth's skies suddenly fill with extraterrestrial ships, humanity faces its darkest hour in 'Alien Invasion'. Military efforts prove futile against the advanced alien technology, leaving the world in despair. In a twist of fate, a ragtag group of civilians discover a hidden weakness in the invaders' armor. Armed with ingenuity, courage, and an unbreakable spirit, they launch a desperate mission to save the planet. As they infiltrate the mothership, they realize the invasion is far more complex than it seems. A high-stakes, pulse-pounding journey of survival and revelation awaits.",
+        "cinema_details": [
+            {
+                "cinema_name": "Southbank Cinemas",
+                "session_time": "21:00:00",
+                "ticket_price": "12.00"
+            },
+            {
+                "cinema_name": "Sunnybank Cinemas",
+                "session_time": "20:00:00",
+                "ticket_price": "12.00"
+            },
+            {
+                "cinema_name": "Capalaba Cinemas",
+                "session_time": "19:30:00",
+                "ticket_price": "11.00"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Sing! The Musical",
+        "image_url": "https://deco7140sem22023.s3.ap-southeast-2.amazonaws.com/movie_info/sing_musical.png",
+        "category": "Romance",
+        "description": "In 'Sing! The Musical,' Emma and Jack are two gifted yet struggling artists who arrive in New York with Broadway-sized dreams. Despite countless auditions and setbacks, their spirits remain unbreakable. Fate takes a turn when they both audition for the same life-changing role, igniting a friendly rivalry. As they navigate the cutthroat world of showbiz, they discover that the path to stardom is fraught with challenges, but also unexpected alliances and romantic sparks. Filled with toe-tapping numbers and soaring vocals, 'Sing! The Musical' is an uplifting journey about ambition, friendship, and the transformative power of song.",
+        "cinema_details": [
+            {
+                "cinema_name": "Chermside Cinemas",
+                "session_time": "15:00:00",
+                "ticket_price": "14.00"
+            },
+            {
+                "cinema_name": "Redbank Cinemas",
+                "session_time": "18:00:00",
+                "ticket_price": "12.00"
+            },
+            {
+                "cinema_name": "Mt Gravatt",
+                "session_time": "19:00:00",
+                "ticket_price": "14.00"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Revenge",
+        "image_url": "https://deco7140sem22023.s3.ap-southeast-2.amazonaws.com/movie_info/revenge_action.png",
+        "category": "Action",
+        "description": "In the icy landscapes of northern Russia, 'Revenge' unravels the tale of Alex, a non-binary individual scarred by a traumatic upbringing in a remote mining town. Fueled by years of mistreatment and discrimination, Alex returns to confront the tormentors of their past. Utilizing an unsettling mix of guile and cunning, they weave a complex web of vengeance, taking down those who wronged them one by one. As Alex's mission unfolds, so does the revelation that the quest for justice comes with its own moral complexities. A dark, gripping drama that delves deep into themes of identity, retribution, and the consequences of unchecked power.",
+        "cinema_details": [
+            {
+                "cinema_name": "Sunnybank Cinemas",
+                "session_time": "19:00:00",
+                "ticket_price": "11.50"
+            },
+            {
+                "cinema_name": "Brisbane City",
+                "session_time": "19:00:00",
+                "ticket_price": "18.00"
+            },
+            {
+                "cinema_name": "Southbank Cinemas",
+                "session_time": "20:00:00",
+                "ticket_price": "15.00"
+            },
+            {
+                "cinema_name": "Capalaba Cinemas",
+                "session_time": "21:00:00",
+                "ticket_price": "13.50"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Rebellion",
+        "image_url": "https://deco7140sem22023.s3.ap-southeast-2.amazonaws.com/movie_info/rebellion_spy.png",
+        "category": "Action",
+        "description": "In 'Rebellion,' young prodigy Elise, trained as an elite spy by the British government, begins to question her loyalty when she uncovers disturbing truths about her agency's corrupt practices. Realizing she's been a pawn in a system she can no longer support, Elise defects to join an underground movement fighting against capitalism. Utilizing her espionage skills and unparalleled intellect, she becomes a pivotal figure in the rebellion's campaign to dismantle the oppressive structures in place. A high-stakes thriller packed with twists and moral dilemmas, 'Rebellion' explores the complexities of allegiance and the courage it takes to defy the system",
+        "cinema_details": [
+            {
+                "cinema_name": "Bulimba Plex",
+                "session_time": "19:00:00",
+                "ticket_price": "12.00"
+            },
+            {
+                "cinema_name": "Sunnybank Cinemas",
+                "session_time": "19:30:00",
+                "ticket_price": "11.50"
+            },
+            {
+                "cinema_name": "Southbank Cinemas",
+                "session_time": "21:00:00",
+                "ticket_price": "13.00"
+            },
+            {
+                "cinema_name": "Capalaba Cinemas",
+                "session_time": "20:00:00",
+                "ticket_price": "11.50"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Gamble",
+        "image_url": "https://deco7140sem22023.s3.ap-southeast-2.amazonaws.com/movie_info/gamble_action.png",
+        "category": "Action",
+        "description": "In 'Gamble,' set in a dystopian future of Saigon, young warrior Lana takes on the Herculean task of fighting back against a powerful mafia syndicate. Exploiting the downtrodden for immense profits, the criminal organization seems invincible until Lana steps into the fray. Armed with tenacity, combat skills, and a relentless desire for justice, she maneuvers through Saigon's dark underbelly, taking risks that border on the suicidal. As the stakes escalate, Lana must decide how much she's willing to gamble for the chance at a better future. A gritty, action-packed drama that examines the cost of rebellion in a world gone awry.",
+        "cinema_details": [
+            {
+                "cinema_name": "Chermside Cinemas",
+                "session_time": "12:00:00",
+                "ticket_price": "18.00"
+            },
+            {
+                "cinema_name": "Brisbane City",
+                "session_time": "14:00:00",
+                "ticket_price": "17.00"
+            },
+            {
+                "cinema_name": "Mt Gravatt",
+                "session_time": "19:00:00",
+                "ticket_price": "14.00"
+            }
+        ]
+    }
+]
