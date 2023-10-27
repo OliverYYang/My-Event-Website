@@ -33,3 +33,35 @@
     border-radius: 50px;
     margin-right: 20px;
 }
+
+.community-list-item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.community-list-item textarea{
+    width: 60%;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.community-list-item-i{
+    margin-right: 30px;
+}
+
+.community-list-item-i button{
+    margin-right: 30px;
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.community-list-item-i button{
+    cursor: pointer;
+    background-color: white;
+}
+
+.community-list-item-i button i{
+    color:darksalmon;
+}
